@@ -1,0 +1,24 @@
+CS 3377 System Prog. in Unix and other Envs.
+Assignment 1
+Due: Thursday, Sep 2:  11:59 PM (on elearning).
+
+There are two parts.
+
+A. Login to cs1.utdallas.edu. You may use mobaXterm, or putty, or ssh from command mode (works both on Mac and Windows), or through any other means.
+
+B. Execute the following tasks
+	1. find the current working directory
+	2. create a new directory '3377' (if it is already there, your command may fail. It is ok.)
+	3. change to directory '3377'
+	4. create directory 'a1'
+	5. change to directory 'a1'
+	6. using a command only once to create directories 'x', 'y', and 'z' (all at once)
+	7. change to dir 'x'
+	8. using a command only once to create directories x1/x2/x3 (x3 is in x2 which is in x1)
+	9. change to dir 'y'
+	10. create an empty file 'y1'
+	11. list the directory y to show that you have created an empty file
+	12. change to 3377
+	13. Your final task is to figure out how to remove dir 'a1' and everything under it in one command. Check the man page for rm. Find out the option to remove everything in one command. Note that rm prompts you for confirmation. Find out the option to suppress the prompt. Be careful with this option. DO NOT EXECUTE FROM YOU HOME DIRECTORY. YOU WILL WIPE OUT EVERYTHING.
+	
+	Take a screen shot showing the commands used and their output. Upload it to elearning. Open a separate terminal viewing using man pages. Your output will be clean. Capture only the relevant part, not the entire screen (you can try 'snipping tool' on windows.)

@@ -1,0 +1,22 @@
+CS 3377 System Prog. in Unix and other Envs.
+Assignment 7
+Due: Sunday, Oct 17, 11:59 PM (on elearning).
+
+Copy the files a7Tester.c and strCopy.c in ~sxa173731/3377/cintro
+
+Complete the function strCopy() in strCopy.c 
+The comments in the body of strCopy() specifies the tasks. The purpose of this assignment is to make you practice using pointers. So, do not treat a string variable as an array.
+
+Compile both files and link. You can test your code by executing
+
+prompt> ./a7Tester "Do you copy?"
+
+Stress test your program with several input strings of varied lengths.
+
+Submit strCopy.c on elearning. Do not submit a7Tester.c
+
+
+
+
+
+

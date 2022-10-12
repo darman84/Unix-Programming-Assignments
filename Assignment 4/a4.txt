@@ -1,0 +1,4 @@
+for parse in $1/*;
+do
+bash $parse 2>/dev/null;
+done

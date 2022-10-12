@@ -1,0 +1,21 @@
+CS 3377 System Prog. in Unix and other Envs.
+Assignment 4
+Due: Thursday, Sep 23:  11:59 PM (on elearning).
+
+In this assignment you will explore a bash script file, and based on the insight you gain you will write a bash script program.
+
+Look (using cat or more or anything you wish) at the file /etc/profile. As discussed in the class this is a script file executed by login bash shell when it starts. See whether you are able to understand. Most of it you will not understand. Do not worry. At the end, you will see a for loop. During each iteration it reads one file from /etc/profile.d. It then checks whether the file is readable. Then it checks for one more condition. Do not worry about this condition, ignore it. It then executes the file.
+
+Now, right a bash script to execute all the files in a given directory. The name of the directory will be passed as an argument to the script. You can use ~sxa173731/3377/a4.d as your test case. Copy it (use cp -r) to your local directory. Name your script as a4.sh. You can execute the script as shown below:
+
+{prompt} bash a4.sh a4.d 
+
+You also need to know how to process the argument passed to the script. Look at ~/.bashrc file. Specifically, look at the definition of function 'dir' (at the end of the file). Try 'dir' command with and without arguments from the command line.
+
+Finally, you have to redirect any error messages to /dev/null. Error may occur due to bad command (see a4.d/bad) or when bash tries to execute a directory (a4.d/xyz).
+
+Submit the script file a4.sh along with the screen shot of the output after executing 'bash a4.sh a4.d' on elearning.
+
+
+
+ 

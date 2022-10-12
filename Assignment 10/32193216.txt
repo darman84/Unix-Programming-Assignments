@@ -1,0 +1,16 @@
+CS 3377 System Prog. in Unix and other Envs.
+Assignment 10
+Due: Wednesday, Nov 10:  11:59 PM (on elearning).
+
+In our class we wrote a program (~sxa173731/3377/pipe/pipecmd1.c) that executes piped command 'cat <filename> | wc', where filename is the argument to the program.
+
+In this assignment you will extend pipecmd1.c to execute 'cat <filename> | cat | wc'.
+
+Name you program as pipecmd2.c and submit it on elearning.
+
+
+
+
+
+
+

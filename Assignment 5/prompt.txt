@@ -1,0 +1,20 @@
+CS 3377 System Prog. in Unix and other Envs.
+Assignment 5
+Due: Thursday, Sep 30:  11:59 PM (on elearning).
+
+In this assignment you will write a recursive function in bash that will do a preorder traversal of a given directory and list the contents of the directory and all the sub-directories under it. The behavior of your script should be similar to that of 'ls -R arg1' where arg1 is the directory that needs to be traversed and listed.
+
+NOTE: You are not allowed to use 'ls' or any other command that displays the contents of a directory. You can use echo, pwd, and cd.
+
+To understand how recursion works, see the script file ~sxa173731/3377/scripts/recurse. Execute the script with any number as argument and understand the working of the script. 
+
+Name your script file as 'a5' and submit it on elearning along with the screen shot of the output after executing './a5 ~sxa173731/3377'.
+
+There are empty directories and symbolic links under ~sxa173731/3377. Make sure the output of your script matches that of 'ls -R ~sxa173731/3377'. The format of the output of your script need not match the output of ls.
+
+/people/cs/s/sxa173731/3377
+
+
+
+
+

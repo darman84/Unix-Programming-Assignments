@@ -1,0 +1,24 @@
+CS 3377 System Prog. in Unix and other Envs.
+Assignment 6
+Due: Friday, Oct 8:  11:59 PM (on elearning).
+
+Write a function that accepts an array of 32-bit unsigned integers and array size as input. The function should reverse the array "in place". You cannot use any other variable as place holder. You are allowed to define only one integer variable for indexing the array.
+The prototype for the function is:
+void reverseArray(uint32_t src[], int32_t size);
+
+Name the source file as reverseArray.c. The source file should not contain anyother function other than reverseArray().
+
+You can test your function using the library "~sxa173731/3377/cintro/a6Tester.o". Link your function with a6Tester.o using the following command:
+	gcc -o a6Tester a6Tester.o reverseArray.c
+
+Then execute './a6Tester'.
+
+The output message should indicate whether your function is correct or not. The output of the tester program is cryptic. You should write your own tester program with debugging messages as you please. The source code reverseArray.c should not output anything. If you have printf statements for debugging purposes, please remove it before submitting.
+
+Submit reverseArray.c on elearning.
+
+
+
+
+
+

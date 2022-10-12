@@ -1,0 +1,5 @@
+﻿  a7Tester.c
+  strCopy.c
+J:\CS 3377.0W1\Assignment 7\Assignment 7\strCopy.c(40,28): warning C4098: 'strCopy': 'void' function returning a value
+  Generating Code...
+  Assignment 7.vcxproj -> J:\CS 3377.0W1\Assignment 7\Assignment 7\Debug\Assignment 7.exe
